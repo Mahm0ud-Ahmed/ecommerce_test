@@ -4,6 +4,20 @@
 
 This Flutter application is built to showcase a list of products fetched from [FakeStore API](https://fakestoreapi.com/products). The app includes product listing, detailed product view, a favorites feature with local storage, and a fully responsive UI.
 
+## 🌐 Demo
+[Live Web App](https://mahm0ud-ahmed.github.io/ecommercetest/)
+
+## 📸 Screenshots
+
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/ac43c74d-9f15-43ad-a996-db0a7ae3f4b7" width="200" />
+    <img src="https://github.com/user-attachments/assets/e520d435-c992-498f-8364-74b09845bbfe" width="200" />
+    <img src="https://github.com/user-attachments/assets/b8432068-95be-4bd9-8029-946baec2ce70" width="200" />
+    <img src="https://github.com/user-attachments/assets/2b9f27f9-0725-4e4a-816a-27ba52cef114" width="200" />
+    <img src="https://github.com/user-attachments/assets/01f5ac5a-4f44-4f5b-ade8-7be210611777" width="200" />
+    <img src="https://github.com/user-attachments/assets/5dbd3941-bc4e-41c4-9c0b-6d29e3a86359" width="200" />
+</p>
+
 ## 📱 Features
 
 - **Product Listing Screen**
@@ -64,18 +78,6 @@ This Flutter application is built to showcase a list of products fetched from [F
    ```bash
    flutter run
    ```
-
-## Screenshots
-
-<p>
-    <img src="https://github.com/user-attachments/assets/ac43c74d-9f15-43ad-a996-db0a7ae3f4b7" width="200" />
-    <img src="https://github.com/user-attachments/assets/e520d435-c992-498f-8364-74b09845bbfe" width="200" />
-    <img src="https://github.com/user-attachments/assets/b8432068-95be-4bd9-8029-946baec2ce70" width="200" />
-    <img src="https://github.com/user-attachments/assets/2b9f27f9-0725-4e4a-816a-27ba52cef114" width="200" />
-    <img src="https://github.com/user-attachments/assets/01f5ac5a-4f44-4f5b-ade8-7be210611777" width="200" />
-    <img src="https://github.com/user-attachments/assets/5dbd3941-bc4e-41c4-9c0b-6d29e3a86359" width="200" />
-    
-</p>
 
 ## Testing
 
