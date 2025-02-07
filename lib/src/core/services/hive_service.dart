@@ -1,6 +1,7 @@
 // Package imports:
 
 // Package imports:
+import 'package:flutter/foundation.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:path_provider/path_provider.dart';
 
@@ -17,9 +18,11 @@ class HiveService implements ServiceInterface {
 
   @override
   Future<void> initializeService() async {
-    final directory = await getApplicationDocumentsDirectory();
-    Hive.init(directory.path);
-    await Hive.initFlutter(directory.path);
+    final directory = kIsWeb ? null : await getApplicationDocumentsDirectory();
+    if (!kIsWeb) {
+      Hive.init(directory!.path);
+    }
+    await Hive.initFlutter(kIsWeb ? '' : directory!.path);
     box = await Hive.openBox<Map<dynamic, dynamic>>(kDBName);
     AppLogger.logDebug('$name Success initialization');
   }
