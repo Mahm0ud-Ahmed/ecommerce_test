@@ -1,10 +1,9 @@
-# Flutter Product Listing App
-
 ## 📌 Overview
 
 This Flutter application is built to showcase a list of products fetched from [FakeStore API](https://fakestoreapi.com/products). The app includes product listing, detailed product view, a favorites feature with local storage, and a fully responsive UI.
 
 ## 🌐 Demo
+
 [Live Web App](https://mahm0ud-ahmed.github.io/ecommercetest/)
 
 ## 📸 Screenshots
@@ -22,34 +21,35 @@ This Flutter application is built to showcase a list of products fetched from [F
 
 - **Product Listing Screen**
 
-  - Fetches products from [FakeStore API](https://fakestoreapi.com/products)
-  - Displays products in a visually appealing **grid** layout
-  - Shows **title, image, and price** for each product
-  - **Tap on a product** to navigate to the details screen
+   - Fetches products from [FakeStore API](https://fakestoreapi.com/products)
+   - Displays products in a visually appealing **grid** layout
+   - Shows **title, image, and price** for each product
+   - **Tap on a product** to navigate to the details screen
 
 - **Product Details Screen**
 
-  - Displays **full details** of the selected product
-  - Includes **title, image, price, description, and category**
-  - Users can **mark/unmark** products as favorites
+   - Displays **full details** of the selected product
+   - Includes **title, image, price, description, and category**
+   - Users can **mark/unmark** products as favorites
 
 - **Favorites Feature**
 
-  - Favorites are **saved using Hive**
-  - Dedicated **Favorites Screen** to view saved items
+   - Favorites are **saved using Hive**
+   - Dedicated **Favorites Screen** to view saved items
 
 - **Responsive UI**
 
-  - Adapts dynamically across **mobile, tablet, and desktop**
+   - Adapts dynamically across **mobile, tablet, and desktop**
 
 - **Performance Optimization**
 
-  - Efficient **state management** using **Bloc**
-  - Smooth **navigation and UI rendering**
+   - Efficient **state management** using **Bloc**
+   - Smooth **navigation and UI rendering**
 
 - **Additional Features**
-  - **Dark Mode** using Flutter's **ThemeData**
-  - **Deployed Web Version**
+
+   - **Dark Mode** using Flutter's **ThemeData**
+   - **Deployed Web Version**
 
 ## 🚀 Installation & Setup
 
@@ -63,21 +63,28 @@ This Flutter application is built to showcase a list of products fetched from [F
 ### 2️⃣ Clone the Repository:
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/Mahm0ud-Ahmed/ecommerce_test.git
-   ```
+
+```bash
+git clone https://github.com/Mahm0ud-Ahmed/ecommerce_test.git
+```
+
 2. Navigate to the project directory:
-   ```bash
-   cd ecommerce_test
-   ```
+
+```bash
+cd ecommerce_test
+```
+
 3. Install the required dependencies:
-   ```bash
-   flutter pub get
-   ```
+
+```bash
+flutter pub get
+```
+
 4. Run the application:
-   ```bash
-   flutter run
-   ```
+
+```bash
+flutter run
+```
 
 ## Testing
 
